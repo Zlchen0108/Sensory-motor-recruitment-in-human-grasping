@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 # Sensory-motor Recruitment in Human Grasping
 
@@ -21,19 +21,6 @@ This repository accompanies a study of how sensory inputs and motor degrees of f
 The repository is organized as a collection of self-contained analysis modules. Each manuscript-facing Python module provides its own installation instructions, command-line examples, input-data specification, output policy, and software citation metadata.
 
 > **Review status:** This repository is intended to support transparent peer review and computational reproducibility. Manuscript-specific accession information, the final article citation, and archived release identifiers should be added when available.
-
-## Study workflow
-
-```mermaid
-flowchart LR
-    A["Embedded hand-control system"] --> C["Experimental grasp data"]
-    B["Dexterous-grasp simulation"] --> D["Simulated grasp data"]
-    C --> E["Force and region analyses"]
-    D --> E
-    E --> F["Region-importance analysis"]
-    F --> G["Selective motor recruitment"]
-    F --> H["Selective sensor recruitment"]
-```
 
 ## Repository overview
 
