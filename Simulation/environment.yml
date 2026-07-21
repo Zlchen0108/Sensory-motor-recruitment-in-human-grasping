@@ -1,0 +1,22 @@
+name: dexterous-grasp-simulation
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.7
+  - numpy
+  - scipy
+  - pytorch
+  - transforms3d
+  - trimesh
+  - plotly
+  - pyyaml
+  - lxml
+  - tqdm
+  - tensorboard
+  - networkx
+  - rtree
+  - pip
+  - pip:
+      - urdf-parser-py
+

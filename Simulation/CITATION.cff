@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated article, this software record, and DexGraspNet."
+title: "Reproducible Dexterous-Grasp Simulation"
+type: software
+authors:
+  - family-names: "AUTHOR_FAMILY_NAME"
+    given-names: "AUTHOR_GIVEN_NAME"
+version: 0.1.0
+date-released: 2026-07-21
+repository-code: "https://github.com/OWNER/REPOSITORY"
+references:
+  - type: article
+    title: "DexGraspNet: A Large-Scale Robotic Dexterous Grasp Dataset for General Objects Based on Simulation"
+    authors:
+      - family-names: "Wang"
+        given-names: "Ruicheng"
+    year: 2023
+

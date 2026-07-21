@@ -1,0 +1,28 @@
+# Python and editor state
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Native build products
+build/
+dist/
+*.o
+*.obj
+*.so
+*.pyd
+*.dll
+*.log
+
+# Runtime outputs (the curated data supplied with this release are versioned)
+data/graspdata/
+grasp_generation/gpu_preview_outputs/
+grasp_generation/distances_output.txt
+
+# Notebook checkpoints
+.ipynb_checkpoints/
