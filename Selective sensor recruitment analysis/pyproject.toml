@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tactile-sensor-validation"
+version = "0.1.0"
+description = "Reproducible validation of tactile-sensor distribution patterns"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24,<3",
+  "openpyxl>=3.1,<4",
+  "pandas>=2.0,<3",
+  "scikit-learn>=1.3,<2",
+]
+
+[project.optional-dependencies]
+optimization = ["optuna>=3.5,<5"]
+deep = ["torch>=2.1,<3"]
+test = ["pytest>=7.4,<9"]
+
+[project.scripts]
+sensor-validation = "sensor_validation.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
