@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 # Sensory-motor Recruitment in Human Grasping
 
@@ -110,32 +110,6 @@ python -m pip install -e thirdparty/pytorch_kinematics
 ```
 
 See the [simulation documentation](./Simulation/README.md) for hardware constraints, upstream provenance, data inventory, and workflow entry points.
-
-## Reproducibility
-
-The manuscript-facing workflows follow these principles:
-
-- Input paths and scientific parameters are supplied explicitly rather than encoded as machine-specific paths.
-- Randomized analyses use fixed, reportable seeds.
-- Analysis manifests record parameters, software versions, input paths, and file hashes where implemented.
-- Source-data tables are exported alongside visualizations.
-- Vector or high-resolution figure formats are preferred for editorial inspection.
-- Missing-data handling, thresholds, exclusions, and statistical units must be reported with the corresponding result.
-- Generated outputs and private raw-data locations are separated from version-controlled source code.
-
-Exact reproduction also depends on access to the manuscript data and on matching the software and hardware versions stated in each module. Where raw data cannot be made public, the corresponding `data/README.md` or code-availability statement describes the expected schema and access conditions.
-
-## Data and outputs
-
-Large or sensitive raw datasets should not be committed directly to Git. Module-level data directories contain inventories or schema descriptions when the underlying data are distributed separately. Generated results should be written to the module's documented output directory.
-
-Before interpreting regenerated results, verify:
-
-- the input-file inventory and checksums;
-- sample counts and experimental units;
-- preprocessing and exclusion parameters;
-- random seeds and software versions;
-- correspondence between output files and manuscript panels or tables.
 
 ## Code provenance
 
